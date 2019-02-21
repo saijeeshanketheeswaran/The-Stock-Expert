@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205800816210",
+    "firebase_url": "https://stockexpertapp.firebaseio.com",
+    "project_id": "stockexpertapp",
+    "storage_bucket": "stockexpertapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205800816210:android:4936d508749f501e",
+        "android_client_info": {
+          "package_name": "com.example.a100589716.thestockexpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205800816210-j14pggj1jrpu9bkoh5lnnf10dq1e95id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a100589716.thestockexpert",
+            "certificate_hash": "b6f8f1c1fd023f097ad2cfbee3d6d1d17f07bd44"
+          }
+        },
+        {
+          "client_id": "205800816210-fasoq98dggqha80nomaml7hi0lohs6nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoHDmf9Yrc8E1k0t2lm0I9317Kc4snql4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205800816210-fasoq98dggqha80nomaml7hi0lohs6nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
