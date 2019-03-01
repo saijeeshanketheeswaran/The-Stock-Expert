@@ -6,23 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="3.3.1"
-    timestamp="1550791396096"
+    timestamp="1551463944523"
     token="-8306018315384353232"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3988" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="124" />
     <task
         name="verifier"
-        duration="0" />
+        duration="314" />
 
+    <artifact
+        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
@@ -51,9 +54,6 @@
         location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
@@ -65,8 +65,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1550791396096"
+        timestamp="1551463944523"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
@@ -93,9 +96,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"

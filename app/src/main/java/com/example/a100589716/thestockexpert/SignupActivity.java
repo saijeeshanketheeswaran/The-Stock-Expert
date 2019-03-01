@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -132,6 +133,10 @@ public class SignupActivity extends AppCompatActivity {
                                 Log.d("Email", "onComplete: exist_email");
 
 
+                            }
+                            catch(FirebaseAuthWeakPasswordException weakPassword){
+                                Toast.makeText(SignupActivity.this, "Password must be atleast 6 characters long",
+                                        Toast.LENGTH_SHORT).show();
                             }
 
                             catch (Exception e) {
