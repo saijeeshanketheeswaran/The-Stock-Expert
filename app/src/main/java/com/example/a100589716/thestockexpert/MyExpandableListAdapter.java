@@ -6,17 +6,17 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.List;
 
 public class MyExpandableListAdapter extends BaseExpandableListAdapter {
 
-    private HashMap<String, List<String>> mStringListHashMap;
+    private TreeMap<String, List<String>> mStringListTreeMap;
     private String[] mListHeaderGroup;
 
-    public MyExpandableListAdapter(HashMap<String, List<String>> stringListHashMap){
-        mStringListHashMap = stringListHashMap;
-        mListHeaderGroup = mStringListHashMap.keySet().toArray(new String[0]);
+    public MyExpandableListAdapter(TreeMap<String, List<String>> stringListTreeMap){
+        mStringListTreeMap = stringListTreeMap;
+        mListHeaderGroup = mStringListTreeMap.keySet().toArray(new String[0]);
     }
 
     @Override
@@ -26,7 +26,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return mStringListHashMap.get(mListHeaderGroup[groupPosition]).size();
+        return mStringListTreeMap.get(mListHeaderGroup[groupPosition]).size();
     }
 
     @Override
@@ -36,7 +36,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
-        return mStringListHashMap.get(mListHeaderGroup[groupPosition]).get(childPosition);
+        return mStringListTreeMap.get(mListHeaderGroup[groupPosition]).get(childPosition);
     }
 
     @Override
