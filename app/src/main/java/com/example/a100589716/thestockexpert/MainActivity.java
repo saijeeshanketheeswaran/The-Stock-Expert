@@ -35,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        setContentView(R.layout.activity_main);
+        ExpandableListView expandableListView = findViewById((R.id.expandableListView));
+
+        HashMap<String, List<String>> item = new HashMap<>();
+        ArrayList<String> stocks = new ArrayList<>();
+
         BufferedReader csvFile = null;
 
         try {
@@ -48,8 +54,13 @@ public class MainActivity extends AppCompatActivity {
 
                 fileContent = csvFile.readLine();
 
-                Log.d("Codes", tab[0]);
-                Log.d("Names", tab[1]);
+                if (tab[1].equalsIgnoreCase("name")) {
+                    Log.d("Names", "Not added to the list");
+                }
+                else {
+                    Log.d("Names", tab[1]);
+                    item.put(tab[1], stocks);
+                }
             }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(MainActivity.class.getName()).log(Level.SEVERE, null, ex);
@@ -62,21 +73,6 @@ public class MainActivity extends AppCompatActivity {
                 Logger.getLogger(MainActivity.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-
-        setContentView(R.layout.activity_main);
-
-        ExpandableListView expandableListView = findViewById((R.id.expandableListView));
-
-        HashMap<String, List<String>> item = new HashMap<>();
-
-        ArrayList<String> stocks = new ArrayList<>();
-
-        stocks.add("Name");
-        stocks.add("Code");
-        stocks.add("Description");
-        stocks.add("Value");
-
-        item.put("Stock 1", stocks);
 
         MyExpandableListAdapter adapter = new MyExpandableListAdapter(item);
         expandableListView.setAdapter(adapter);
