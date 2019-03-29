@@ -2,14 +2,17 @@ package com.example.a100589716.thestockexpert;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -31,6 +34,9 @@ import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 
+    TreeMap<String, List<String>> item = new TreeMap<>();
+    ArrayList<String> stocks = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +44,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ExpandableListView expandableListView = findViewById((R.id.expandableListView));
 
-        TreeMap<String, List<String>> item = new TreeMap<>();
-        ArrayList<String> stocks = new ArrayList<>();
+
 
         BufferedReader csvFile = null;
 
@@ -76,5 +81,23 @@ public class MainActivity extends AppCompatActivity {
 
         MyExpandableListAdapter adapter = new MyExpandableListAdapter(item);
         expandableListView.setAdapter(adapter);
+
+
+        expandableListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+
+            @Override
+            public boolean onGroupClick(ExpandableListView parent, View convertView, int groupPosition, long id) {
+                if (convertView == null){
+                 convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.expandable_list_group, parent, false);
+               }
+                TextView textView = convertView.findViewById(R.id.textView);
+                String x =  textView.getText().toString();
+                //Log.d("Hey", x);
+                Intent intent= new Intent(MainActivity.this, StockActivity.class );
+                intent.putExtra("name", x);
+                startActivity(intent);
+                return true;
+            }
+        });
     }
 }

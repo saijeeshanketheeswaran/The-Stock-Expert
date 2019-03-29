@@ -2,110 +2,117 @@
 <instant-run
     abi="x86"
     api-level="26"
-    build-mode="FULL"
-    density="560dpi"
+    build-mode="HOT_WARM"
+    density="420dpi"
     format="10"
-    plugin-version="3.3.1"
-    timestamp="1551463944523"
-    token="-8306018315384353232"
-    verifier="FULL_BUILD_REQUESTED" >
+    plugin-version="3.3.2"
+    timestamp="1553874531639"
+    token="4448789662200220014"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3988" />
+        duration="7758" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="274" />
     <task
         name="instant-run-transform"
-        duration="124" />
+        duration="643" />
     <task
         name="verifier"
-        duration="314" />
+        duration="29" />
 
     <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1551463944523"
+        timestamp="1553873328072"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/rohil/Desktop/The-Stock-Expert-master/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1553874340621"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1553874531639"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Abi\Desktop\Unversity\4th Year Uni\Second Sem\CSCI 4610\The-Stock-Expert\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
