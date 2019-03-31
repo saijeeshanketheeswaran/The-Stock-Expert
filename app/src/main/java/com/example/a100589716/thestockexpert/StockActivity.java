@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -30,8 +33,6 @@ public class StockActivity extends AppCompatActivity {
         while(m.find()) {
             symbol = m.group(1);
         }
-
-
 
         try {
             url = csv.getData(symbol);

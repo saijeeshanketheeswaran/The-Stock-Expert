@@ -22,15 +22,11 @@ public class CSVGetter extends AppCompatActivity {
     String name;
     String start_date;
     String end_date;
-
-
  ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
     }
 
 
@@ -156,8 +152,6 @@ class DownloadCSVLinkTask extends AsyncTask<String,Void,  ArrayList<String>> {
         if (exception != null) {
             return;
         }
-
-
     }
 
 

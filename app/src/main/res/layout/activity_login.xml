@@ -10,24 +10,19 @@
     tools:context=".LoginActivity">
 
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Stock Expert"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="150dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         android:text="Email"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
