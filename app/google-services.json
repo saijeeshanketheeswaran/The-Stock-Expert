@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "205800816210-pekm7ln05da8t97uhkvgit2405lifmql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a100589716.thestockexpert",
+            "certificate_hash": "eb7093471f478f7a9dbd5e63df629e8bbea157f4"
+          }
+        },
+        {
           "client_id": "205800816210-fasoq98dggqha80nomaml7hi0lohs6nh.apps.googleusercontent.com",
           "client_type": 3
         }

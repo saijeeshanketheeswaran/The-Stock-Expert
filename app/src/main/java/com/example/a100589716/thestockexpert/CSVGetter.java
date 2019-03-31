@@ -32,7 +32,7 @@ public class CSVGetter extends AppCompatActivity {
 
     public String getData(String name) throws ExecutionException, InterruptedException {
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.MONTH, -6);
+        calendar.add(Calendar.MONTH, -3);
         Date date = calendar.getTime();
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         start_date = format.format(date);

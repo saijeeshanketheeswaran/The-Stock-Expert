@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,7 +21,8 @@ public class StockActivity extends AppCompatActivity {
     String symbol;
     String url;
 
-
+    private FirebaseAuth mAuth;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +34,8 @@ public class StockActivity extends AppCompatActivity {
 
         CSVGetter csv = new CSVGetter();
 
+        mAuth = FirebaseAuth.getInstance();
+
         Matcher m = Pattern.compile("\\(([^)]+)\\)").matcher(name);
         while(m.find()) {
             symbol = m.group(1);
@@ -39,6 +46,9 @@ public class StockActivity extends AppCompatActivity {
 
             TextView txtView = (TextView) findViewById(R.id.Url);
             txtView.setText(url);
+
+            DatabaseReference mRef =  database.getReference().child("URL");
+            mRef.setValue(url);
 
             Log.d("Url Link", url);
         } catch (ExecutionException e) {
