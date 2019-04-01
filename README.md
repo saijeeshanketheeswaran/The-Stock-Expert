@@ -17,4 +17,4 @@ When you are running the android app, and when you click the stock in the app an
     
 If you are missing packages, install the packages that are needed which are in the in the first couple of lines in the tensor.py file. It should show errors of what packages are needed when you run the file in terminal.
 
-When running the python file, it takes a really long time for the program to learn the data. Can take up to 3 hours.
+When running the python file, it takes a really long time for the program to learn the data. Can take upwards of six hours to run.
