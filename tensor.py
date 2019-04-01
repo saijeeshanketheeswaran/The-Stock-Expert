@@ -182,3 +182,7 @@ print(net.run(out, feed_dict={X: [[2019,4,3]]}))
 newData.append(net.run(out, feed_dict={X: [[2019,4,3]]}))
 print(net.run(out, feed_dict={X: [[2019,4,4]]}))
 newData.append(net.run(out, feed_dict={X: [[2019,4,4]]}))
+
+xDates = ["2019,3,30", "2019,3,31", "2019,4,1", "2019,4,2", "2019,4,3", "2019,4,4"]
+plt.plot(xDates, newData, '-ok', color = 'black')
+plt.show()
