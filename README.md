@@ -3,11 +3,11 @@
  1. Open git shell in any folder location you want on your device
  2. Execute :
  
-          $ git clone https://github.com/abinashnarendiran/CSCI_4100_Project.git
+          $ git clone https://github.com/saijeeshanketheeswaran/The-Stock-Expert
           
- 3. Open Android Studio
+ 3. Open Android Studio ( If you don't have it , install Android Studio)
  4. Select File > New > Import Project
- 5. Select the project folder ../../CSCI_4100_Project
+ 5. Select the project folder ../../The-Stock-Expert
  6. Run in emulator : Google Pixel 2 (Andord 8.1 with Google API) and above
  
  
