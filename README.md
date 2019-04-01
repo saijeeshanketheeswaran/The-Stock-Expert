@@ -1,5 +1,5 @@
 # The Stock Expert
-## How to start?
+## How to start
  1. Open git shell in any folder location you want on your device
  2. Execute :
  
