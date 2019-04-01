@@ -135,7 +135,7 @@ mse_train = []
 mse_test = []
 
 # Run
-epochs = 250
+epochs = 350
 for e in range(epochs):
     print(e)
     for i in range(0, len(y_train) // batch_size):
