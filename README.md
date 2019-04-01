@@ -12,6 +12,7 @@
  
  
  ## To Run
-    When you click the stock in the app and it goes to a new activity, after open the terminal where the tensor.py is. In the terminal,type in python3 tensor.py.
+ 
+When you are running the android app, and when you the stock in the app and it goes to a new activity, after open the terminal where the tensor.py is. In the terminal,type in python3 tensor.py.
     
-    If you are missing packages , install the packages that are needed which are in the in the first couple of lines in the tensor.py file. It should show errors of what packages are needed when you run the file in terminal
+If you are missing packages , install the packages that are needed which are in the in the first couple of lines in the tensor.py file. It should show errors of what packages are needed when you run the file in terminal
